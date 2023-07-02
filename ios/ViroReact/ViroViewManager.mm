@@ -41,6 +41,7 @@
 
 RCT_MULTI_ENUM_CONVERTER(UIAccessibilityTraits, (@{
                                                    @"none": @(UIAccessibilityTraitNone),
+                                                   @"tablist": @(UIAccessibilityTraitNone),
                                                    @"button": @(UIAccessibilityTraitButton),
                                                    @"link": @(UIAccessibilityTraitLink),
                                                    @"header": @(UIAccessibilityTraitHeader),
@@ -68,7 +69,7 @@ RCT_EXPORT_MODULE()
 
 - (dispatch_queue_t)methodQueue
 {
-    
+
     return RCTGetUIManagerQueue();
 }
 
@@ -90,7 +91,7 @@ RCT_EXPORT_MODULE()
 - (NSArray *)customBubblingEventTypes
 {
     return @[
-             
+
              // Generic events
              @"press",
              @"change",
@@ -99,7 +100,7 @@ RCT_EXPORT_MODULE()
              @"blur",
              @"submitEditing",
              @"endEditing",
-             
+
              // Touch events
              @"touchStart",
              @"touchMove",

@@ -6,7 +6,7 @@
   "version": "0.0.1",
   "license": "MIT",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+  "@<em>YOUR-USERNAME</em>:registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
