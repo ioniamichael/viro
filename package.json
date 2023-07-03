@@ -6,7 +6,7 @@
   "version": "0.0.1",
   "license": "MIT",
   "publishConfig": {
-  "@<em>YOUR-USERNAME</em>:registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/@ioniamichael"
   },
   "repository": {
     "type": "git",
